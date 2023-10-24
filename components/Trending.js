@@ -4,7 +4,6 @@ import { BadgeCheckIcon } from "@heroicons/react/solid";
 export default function Trending() {
   return (
     <div className=" hidden lg:flex flex-col ml-7 mt-4">
-      Trending
       <div className="flex space-x-3 bg-white bg-opacity-10 w-[300px] h-[44px] p-3 rounded-3xl">
         <SearchIcon className="w-6 text-gray-600" />
         <input
@@ -55,15 +54,48 @@ export default function Trending() {
       <div className="w-[300px] h-[500px] bg-white bg-opacity-10 rounded-3xl mt-3">
         <h1 className="font-bold text-xl p-3">Who to Follow</h1>
 
-        <div className="flex justify-between"> 
+        <div className="flex justify-between p-3"> 
             <div className="flex space-x-3 p-3">
                 <img src="/assets/profilePics/pfp2.png" className="w-11 h-11 object-cover rounded-full"/>
+                <div>
                 <div className="flex space-x-1">
                     <h1 className="font-bold">Name Here</h1>
                     <BadgeCheckIcon className="w-[18px] text-blue-400"/>
                 </div>
+                <h1 className="text-[12px] text-gray-500 mt-1">@namehere</h1>
+                </div>
             </div>
-            <button>
+            <button className="bg-white text-black text-sm w-20 h-8 rounded-3xl font-bold">
+                Follow
+            </button>
+        </div>
+        <div className="flex justify-between p-3"> 
+            <div className="flex space-x-3 p-3">
+                <img src="/assets/profilePics/pfp2.png" className="w-11 h-11 object-cover rounded-full"/>
+                <div>
+                <div className="flex space-x-1">
+                    <h1 className="font-bold">Name Here</h1>
+                    <BadgeCheckIcon className="w-[18px] text-blue-400"/>
+                </div>
+                <h1 className="text-[12px] text-gray-500 mt-1">@namehere</h1>
+                </div>
+            </div>
+            <button className="bg-white text-black text-sm w-20 h-8 rounded-3xl font-bold">
+                Follow
+            </button>
+        </div>
+        <div className="flex justify-between p-3"> 
+            <div className="flex space-x-3 p-3">
+                <img src="/assets/profilePics/pfp2.png" className="w-11 h-11 object-cover rounded-full"/>
+                <div>
+                <div className="flex space-x-1">
+                    <h1 className="font-bold">Name Here</h1>
+                    <BadgeCheckIcon className="w-[18px] text-blue-400"/>
+                </div>
+                <h1 className="text-[12px] text-gray-500 mt-1">@namehere</h1>
+                </div>
+            </div>
+            <button className="bg-white text-black text-sm w-20 h-8 rounded-3xl font-bold">
                 Follow
             </button>
         </div>

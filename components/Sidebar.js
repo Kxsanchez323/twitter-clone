@@ -24,7 +24,7 @@ export default function Sidebar() {
         <SidebarLink Icon={BookmarkIcon} text={"Bookmarks"} />
         <SidebarLink Icon={UserIcon} text={"Profile"} />
         <SidebarLink Icon={DotsCircleHorizontalIcon} text={"More"} />
-        <button className="hidden xl:inline bg-[#1d9bf0] rounded-full h-[52px] w-[200px] text-lg font-bold mt-2">
+        <button className="hidden xl:inline bg-[#1d9bf0] rounded-full h-[52px] w-[150px] text-lg font-bold mt-2">
           Tweet
         </button>
         <div className="absolute bottom-0">User</div>
