@@ -1,3 +1,5 @@
+import SignupModal from "./modals/SignupModal";
+
 export default function BottomBanner(){
     return (
         <div className="fixed xl:space-x-[200px]  justify-center items-center w-full h-[80px] bg-[#1d9bf0] bottom-0 flex">
@@ -8,7 +10,7 @@ export default function BottomBanner(){
 
             <div className="space-x-3">
                 <button className="bg-transparent border border-white text-white w-[160px] rounded-full h-[40px] hover:bg-[#cbd2d7]">Log In</button>
-                <button className="bg-white text-black w-[160px] rounded-full h-[40px] hover:bg-[#cbd2d7]">Sign Up</button>
+                <SignupModal />
             </div>
         </div>
     )
