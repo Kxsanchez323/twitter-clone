@@ -20,7 +20,7 @@ export default function SignupModal() {
       >
         <div className="w-[90%] h-fit bg-black text-white md:w-[560px] md:h-[600px] border border-gray-700 rounded-lg flex justify-center">
             <div className="w-[90%] mt-8 flex flex-col" >
-                <button className="bg-white text-black w-full font-bold text-lg p-2 rounded-md">Sign up here</button>
+                <button className="bg-white text-black w-full font-bold text-lg p-2 rounded-md">Sign In as Guest</button>
                 <h1 className="text-center mt-4 font-bold text-lg">or</h1>
                 <h1 className="text-center mt-4 font-bold text-4xl">Create your Account</h1>
                 <input placeholder="Full Name" className="h-10 rounded-md bg-transparent border border-gray-700 p-6" type={"text"} />
