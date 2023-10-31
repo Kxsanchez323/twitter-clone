@@ -1,11 +1,25 @@
 import { closeSignupModal, openSignupModal } from "@/redux/modalSlice";
 import { Modal } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
+import { createUserWithEmailAndPassword } from "firebase/auth";
+import { useState } from "react";
 
 export default function SignupModal() {
 
     const isOpen = useSelector(state => state.modals.signupModalOpen)
     const dispatch = useDispatch()
+
+    const [email, setEmail] = useState();
+    const [password, setPassword] = useState();
+
+    async function handleSignUp(){
+      const userCredentials = await createUserWithEmailAndPassword(
+        auth,
+        email,
+        password
+      )
+
+    }
 
   return (
     <>
