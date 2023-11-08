@@ -7,6 +7,7 @@ import {
   BellIcon,
   UserIcon,
   DotsCircleHorizontalIcon,
+  DotsHorizontalIcon,
 } from "@heroicons/react/outline";
 import Image from "next/image";
 
@@ -27,7 +28,18 @@ export default function Sidebar() {
         <button className="hidden xl:inline bg-[#1d9bf0] rounded-full h-[52px] w-[150px] text-lg font-bold mt-2">
           Tweet
         </button>
-        <div className="absolute bottom-0">User</div>
+        <div className="absolute bottom-0 flex justify-center items-center p-3 space-x-3">
+        <img className="w-10 h-10 rounded-full object-cover" src="/assets/profilePics/pfp1.png"/>
+        </div>
+        <div>
+          <h1 className="font-bold">
+            name
+          </h1>
+          <h1>
+            username
+          </h1>
+        </div>
+        <DotsHorizontalIcon className="flex h-5"/>
       </nav>
     </div>
   );
