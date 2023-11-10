@@ -1,7 +1,7 @@
 import { closeSignupModal, openSignupModal } from "@/redux/modalSlice";
 import Modal from "@mui/material/Modal";
 import { useDispatch, useSelector } from "react-redux";
-import { createUserWithEmailAndPassword, onAuthStateChanged, updateProfile } from "firebase/auth";
+import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { useEffect, useState } from "react";
 import { auth } from "@/firebase";
 import { setUser } from "@/redux/userSlice";
@@ -30,6 +30,11 @@ export default function SignupModal() {
     })
 
     router.reload()
+  }
+
+  async function handleGuestSignIn(){
+    await signInWithEmailAndPassword(auth, "guest111100@gmail.com", "123456")
+
   }
 
 useEffect(() => {
@@ -68,7 +73,7 @@ useEffect(() => {
       >
         <div className="w-[90%] h-fit bg-black text-white md:w-[560px] md:h-[600px] border border-gray-700 rounded-lg flex justify-center">
           <div className="w-[90%] mt-8 flex flex-col">
-            <button className="bg-white text-black w-full font-bold text-lg p-2 rounded-md">
+            <button onClick={handleGuestSignIn} className="bg-white text-black w-full font-bold text-lg p-2 rounded-md">
               Sign In as Guest
             </button>
             <h1 className="text-center mt-4 font-bold text-lg">or</h1>
