@@ -21,33 +21,33 @@ export default function Trending() {
         </div>
         <div className="p-3 relative">
         <DotsHorizontalIcon className="w-5 text-gray-600 absolute right-4"/>
-          <p className="text-xs text-gray-500">Trending in US</p>
-          <h1 className="text-[15px] font-bold" >China</h1>
-          <p className="text-xs text-gray-500">340K Tweets</p>
+          <p className="text-xs text-gray-500">Trending in Florida</p>
+          <h1 className="text-[15px] font-bold" >Voting</h1>
+          <p className="text-xs text-gray-500">20K Tweets</p>
         </div>
         <div className="p-3 relative">
         <DotsHorizontalIcon className="w-5 text-gray-600 absolute right-4"/>
-          <p className="text-xs text-gray-500">Trending in US</p>
-          <h1 className="text-[15px] font-bold" >China</h1>
-          <p className="text-xs text-gray-500">340K Tweets</p>
+          <p className="text-xs text-gray-500">Trending in Apopka</p>
+          <h1 className="text-[15px] font-bold" >RAIN GO AWAY</h1>
+          <p className="text-xs text-gray-500">5K Tweets</p>
         </div>
         <div className="p-3 relative">
         <DotsHorizontalIcon className="w-5 text-gray-600 absolute right-4"/>
-          <p className="text-xs text-gray-500">Trending in US</p>
-          <h1 className="text-[15px] font-bold" >China</h1>
-          <p className="text-xs text-gray-500">340K Tweets</p>
+          <p className="text-xs text-gray-500">Trending</p>
+          <h1 className="text-[15px] font-bold">NVIDA</h1>
+          <p className="text-xs text-gray-500">100K Tweets</p>
         </div>
         <div className="p-3 relative">
         <DotsHorizontalIcon className="w-5 text-gray-600 absolute right-4"/>
-          <p className="text-xs text-gray-500">Trending in US</p>
-          <h1 className="text-[15px] font-bold" >China</h1>
-          <p className="text-xs text-gray-500">340K Tweets</p>
+          <p className="text-xs text-gray-500">Trending</p>
+          <h1 className="text-[15px] font-bold" >FNAF Movie</h1>
+          <p className="text-xs text-gray-500">500K Tweets</p>
         </div>
         <div className="p-3 relative">
         <DotsHorizontalIcon className="w-5 text-gray-600 absolute right-4"/>
-          <p className="text-xs text-gray-500">Trending in US</p>
-          <h1 className="text-[15px] font-bold" >China</h1>
-          <p className="text-xs text-gray-500">340K Tweets</p>
+          <p className="text-xs text-gray-500">Trending</p>
+          <h1 className="text-[15px] font-bold" >SHAGGY?</h1>
+          <p className="text-xs text-gray-500">700K Tweets</p>
         </div>
       </div>
 
@@ -56,13 +56,13 @@ export default function Trending() {
 
         <div className="flex justify-between p-3"> 
             <div className="flex space-x-3 p-3">
-                <img src="/assets/profilePics/pfp2.png" className="w-11 h-11 object-cover rounded-full"/>
+                <img src="/assets/Arnold.png" className="w-11 h-11 object-cover rounded-full"/>
                 <div>
                 <div className="flex space-x-1">
-                    <h1 className="font-bold">Name Here</h1>
+                    <h1 className="font-bold">Arnold</h1>
                     <BadgeCheckIcon className="w-[18px] text-blue-400"/>
                 </div>
-                <h1 className="text-[12px] text-gray-500 mt-1">@namehere</h1>
+                <h1 className="text-[12px] text-gray-500 mt-1">@Schwarzenegger</h1>
                 </div>
             </div>
             <button className="bg-white text-black text-sm w-20 h-8 rounded-3xl font-bold">
@@ -71,13 +71,13 @@ export default function Trending() {
         </div>
         <div className="flex justify-between p-3"> 
             <div className="flex space-x-3 p-3">
-                <img src="/assets/profilePics/pfp2.png" className="w-11 h-11 object-cover rounded-full"/>
+                <img src="/assets/GORDON.png" className="w-11 h-11 object-cover rounded-full"/>
                 <div>
                 <div className="flex space-x-1">
-                    <h1 className="font-bold">Name Here</h1>
+                    <h1 className="font-bold">Gordan Ramsay</h1>
                     <BadgeCheckIcon className="w-[18px] text-blue-400"/>
                 </div>
-                <h1 className="text-[12px] text-gray-500 mt-1">@namehere</h1>
+                <h1 className="text-[12px] text-gray-500 mt-1">@GordonRamsay</h1>
                 </div>
             </div>
             <button className="bg-white text-black text-sm w-20 h-8 rounded-3xl font-bold">
@@ -86,13 +86,13 @@ export default function Trending() {
         </div>
         <div className="flex justify-between p-3"> 
             <div className="flex space-x-3 p-3">
-                <img src="/assets/profilePics/pfp2.png" className="w-11 h-11 object-cover rounded-full"/>
+                <img src="/assets/JEFF.png" className="w-11 h-11 object-cover rounded-full"/>
                 <div>
                 <div className="flex space-x-1">
-                    <h1 className="font-bold">Name Here</h1>
+                    <h1 className="font-bold">Jeff Hardy</h1>
                     <BadgeCheckIcon className="w-[18px] text-blue-400"/>
                 </div>
-                <h1 className="text-[12px] text-gray-500 mt-1">@namehere</h1>
+                <h1 className="text-[12px] text-gray-500 mt-1">@JEFFHARDYBRAND</h1>
                 </div>
             </div>
             <button className="bg-white text-black text-sm w-20 h-8 rounded-3xl font-bold">
